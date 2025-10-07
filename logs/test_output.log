@@ -1,0 +1,197 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: /tests/test1.js
+        output: json (/logs/results.json)
+
+     scenarios: (100.00%) 1 scenario, 100 max VUs, 50s max duration (incl. graceful stop):
+              * ramping_test: Up to 100 looping VUs for 50s over 4 stages (gracefulRampDown: 0s, gracefulStop: 30s)
+
+
+running (01.0s), 000/100 VUs, 0 complete and 0 interrupted iterations
+ramping_test   [   2% ] 000/100 VUs  01.0s/50.0s
+
+running (02.0s), 001/100 VUs, 1 complete and 0 interrupted iterations
+ramping_test   [   4% ] 001/100 VUs  02.0s/50.0s
+
+running (03.0s), 002/100 VUs, 4 complete and 0 interrupted iterations
+ramping_test   [   6% ] 002/100 VUs  03.0s/50.0s
+
+running (04.0s), 003/100 VUs, 8 complete and 0 interrupted iterations
+ramping_test   [   8% ] 003/100 VUs  04.0s/50.0s
+
+running (05.0s), 004/100 VUs, 14 complete and 0 interrupted iterations
+ramping_test   [  10% ] 004/100 VUs  05.0s/50.0s
+
+running (06.0s), 005/100 VUs, 21 complete and 0 interrupted iterations
+ramping_test   [  12% ] 005/100 VUs  06.0s/50.0s
+
+running (07.0s), 006/100 VUs, 30 complete and 0 interrupted iterations
+ramping_test   [  14% ] 006/100 VUs  07.0s/50.0s
+
+running (08.0s), 007/100 VUs, 41 complete and 0 interrupted iterations
+ramping_test   [  16% ] 007/100 VUs  08.0s/50.0s
+
+running (09.0s), 008/100 VUs, 53 complete and 0 interrupted iterations
+ramping_test   [  18% ] 008/100 VUs  09.0s/50.0s
+
+running (10.0s), 009/100 VUs, 66 complete and 0 interrupted iterations
+ramping_test   [  20% ] 009/100 VUs  10.0s/50.0s
+
+running (11.0s), 014/100 VUs, 82 complete and 0 interrupted iterations
+ramping_test   [  22% ] 014/100 VUs  11.0s/50.0s
+
+running (12.0s), 018/100 VUs, 104 complete and 0 interrupted iterations
+ramping_test   [  24% ] 018/100 VUs  12.0s/50.0s
+
+running (13.0s), 023/100 VUs, 136 complete and 0 interrupted iterations
+ramping_test   [  26% ] 023/100 VUs  13.0s/50.0s
+
+running (14.0s), 027/100 VUs, 171 complete and 0 interrupted iterations
+ramping_test   [  28% ] 027/100 VUs  14.0s/50.0s
+
+running (15.0s), 032/100 VUs, 219 complete and 0 interrupted iterations
+ramping_test   [  30% ] 032/100 VUs  15.0s/50.0s
+
+running (16.0s), 036/100 VUs, 262 complete and 0 interrupted iterations
+ramping_test   [  32% ] 036/100 VUs  16.0s/50.0s
+
+running (17.0s), 041/100 VUs, 318 complete and 0 interrupted iterations
+ramping_test   [  34% ] 041/100 VUs  17.0s/50.0s
+
+running (18.0s), 045/100 VUs, 353 complete and 0 interrupted iterations
+ramping_test   [  36% ] 045/100 VUs  18.0s/50.0s
+
+running (19.0s), 050/100 VUs, 395 complete and 0 interrupted iterations
+ramping_test   [  38% ] 050/100 VUs  19.0s/50.0s
+
+running (20.0s), 054/100 VUs, 443 complete and 0 interrupted iterations
+ramping_test   [  40% ] 054/100 VUs  20.0s/50.0s
+
+running (21.0s), 059/100 VUs, 494 complete and 0 interrupted iterations
+ramping_test   [  42% ] 059/100 VUs  21.0s/50.0s
+
+running (22.0s), 063/100 VUs, 548 complete and 0 interrupted iterations
+ramping_test   [  44% ] 063/100 VUs  22.0s/50.0s
+
+running (23.0s), 068/100 VUs, 605 complete and 0 interrupted iterations
+ramping_test   [  46% ] 068/100 VUs  23.0s/50.0s
+
+running (24.0s), 072/100 VUs, 667 complete and 0 interrupted iterations
+ramping_test   [  48% ] 072/100 VUs  24.0s/50.0s
+
+running (25.0s), 077/100 VUs, 737 complete and 0 interrupted iterations
+ramping_test   [  50% ] 077/100 VUs  25.0s/50.0s
+
+running (26.0s), 081/100 VUs, 811 complete and 0 interrupted iterations
+ramping_test   [  52% ] 081/100 VUs  26.0s/50.0s
+
+running (27.0s), 086/100 VUs, 890 complete and 0 interrupted iterations
+ramping_test   [  54% ] 086/100 VUs  27.0s/50.0s
+
+running (28.0s), 090/100 VUs, 972 complete and 0 interrupted iterations
+ramping_test   [  56% ] 090/100 VUs  28.0s/50.0s
+
+running (29.0s), 095/100 VUs, 1059 complete and 0 interrupted iterations
+ramping_test   [  58% ] 095/100 VUs  29.0s/50.0s
+
+running (30.0s), 099/100 VUs, 1151 complete and 0 interrupted iterations
+ramping_test   [  60% ] 099/100 VUs  30.0s/50.0s
+
+running (31.0s), 092/100 VUs, 1244 complete and 8 interrupted iterations
+ramping_test   [  62% ] 092/100 VUs  31.0s/50.0s
+
+running (32.0s), 083/100 VUs, 1324 complete and 17 interrupted iterations
+ramping_test   [  64% ] 083/100 VUs  32.0s/50.0s
+
+running (33.0s), 074/100 VUs, 1399 complete and 26 interrupted iterations
+ramping_test   [  66% ] 074/100 VUs  33.0s/50.0s
+
+running (34.0s), 065/100 VUs, 1466 complete and 35 interrupted iterations
+ramping_test   [  68% ] 065/100 VUs  34.0s/50.0s
+
+running (35.0s), 056/100 VUs, 1522 complete and 44 interrupted iterations
+ramping_test   [  70% ] 056/100 VUs  35.0s/50.0s
+
+running (36.0s), 047/100 VUs, 1569 complete and 53 interrupted iterations
+ramping_test   [  72% ] 047/100 VUs  36.0s/50.0s
+
+running (37.0s), 038/100 VUs, 1611 complete and 62 interrupted iterations
+ramping_test   [  74% ] 038/100 VUs  37.0s/50.0s
+
+running (38.0s), 029/100 VUs, 1639 complete and 71 interrupted iterations
+ramping_test   [  76% ] 029/100 VUs  38.0s/50.0s
+
+running (39.0s), 020/100 VUs, 1662 complete and 80 interrupted iterations
+ramping_test   [  78% ] 020/100 VUs  39.0s/50.0s
+
+running (40.0s), 011/100 VUs, 1676 complete and 89 interrupted iterations
+ramping_test   [  80% ] 011/100 VUs  40.0s/50.0s
+
+running (41.0s), 010/100 VUs, 1685 complete and 90 interrupted iterations
+ramping_test   [  82% ] 010/100 VUs  41.0s/50.0s
+
+running (42.0s), 009/100 VUs, 1693 complete and 91 interrupted iterations
+ramping_test   [  84% ] 009/100 VUs  42.0s/50.0s
+
+running (43.0s), 008/100 VUs, 1701 complete and 92 interrupted iterations
+ramping_test   [  86% ] 008/100 VUs  43.0s/50.0s
+
+running (44.0s), 007/100 VUs, 1708 complete and 93 interrupted iterations
+ramping_test   [  88% ] 007/100 VUs  44.0s/50.0s
+
+running (45.0s), 006/100 VUs, 1714 complete and 94 interrupted iterations
+ramping_test   [  90% ] 006/100 VUs  45.0s/50.0s
+
+running (46.0s), 005/100 VUs, 1721 complete and 95 interrupted iterations
+ramping_test   [  92% ] 005/100 VUs  46.0s/50.0s
+
+running (47.0s), 004/100 VUs, 1728 complete and 96 interrupted iterations
+ramping_test   [  94% ] 004/100 VUs  47.0s/50.0s
+
+running (48.0s), 003/100 VUs, 1732 complete and 97 interrupted iterations
+ramping_test   [  96% ] 003/100 VUs  48.0s/50.0s
+
+running (49.0s), 002/100 VUs, 1735 complete and 98 interrupted iterations
+ramping_test   [  98% ] 002/100 VUs  49.0s/50.0s
+
+running (50.0s), 001/100 VUs, 1736 complete and 99 interrupted iterations
+ramping_test   [ 100% ] 001/100 VUs  50.0s/50.0s
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 3590   71.797906/s
+    checks_succeeded...: 99.97% 3589 out of 3590
+    checks_failed......: 0.02%  1 out of 3590
+
+    ✓ status is 200
+    ✗ response time < 500ms
+      ↳  99% — ✓ 1794 / ✗ 1
+
+    HTTP
+    http_req_duration..............: avg=137.05ms min=35.76ms  med=143.89ms max=2.32s p(90)=209ms p(95)=220.61ms
+      { expected_response:true }...: avg=137.05ms min=35.76ms  med=143.89ms max=2.32s p(90)=209ms p(95)=220.61ms
+    http_req_failed................: 0.00%  0 out of 6189
+    http_reqs......................: 6189   123.77639/s
+
+    EXECUTION
+    iteration_duration.............: avg=971.14ms min=575.93ms med=1.03s    max=2.82s p(90)=1.07s p(95)=1.12s   
+    iterations.....................: 1736   34.718988/s
+    vus............................: 1      min=0         max=99 
+    vus_max........................: 100    min=100       max=100
+
+    NETWORK
+    data_received..................: 38 MB  760 kB/s
+    data_sent......................: 2.2 MB 44 kB/s
+
+
+
+
+running (50.0s), 000/100 VUs, 1736 complete and 100 interrupted iterations
+ramping_test ✓ [ 100% ] 000/100 VUs  50s
